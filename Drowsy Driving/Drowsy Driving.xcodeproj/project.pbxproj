@@ -12,10 +12,14 @@
 		6B43573C236507F100EFFDB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43573B236507F100EFFDB9 /* ViewController.swift */; };
 		6B43573F236507F100EFFDB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B43573D236507F100EFFDB9 /* Main.storyboard */; };
 		6B435741236507F200EFFDB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B435740236507F200EFFDB9 /* Assets.xcassets */; };
-		6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */; };
 		6B43574F236507F200EFFDB9 /* Drowsy_DrivingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */; };
 		6B43575A236507F200EFFDB9 /* Drowsy_DrivingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */; };
 		6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */; };
+		87E1CA3523659D3700FA5800 /* Splash Screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E1CA3223659D3600FA5800 /* Splash Screen@2x.png */; };
+		87E1CA3623659D3700FA5800 /* Splash Screen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E1CA3323659D3600FA5800 /* Splash Screen@3x.png */; };
+		87E1CA3723659D3700FA5800 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E1CA3423659D3600FA5800 /* Splash Screen.png */; };
+		87E1CA3B2365A2C200FA5800 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E1CA3A2365A2C200FA5800 /* Images.xcassets */; };
+		87E1CA3C2365A30B00FA5800 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E1CA3823659EF000FA5800 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,6 @@
 		6B43573B236507F100EFFDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B43573E236507F100EFFDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B435740236507F200EFFDB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B435743236507F200EFFDB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B435745236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B43574A236507F200EFFDB9 /* Drowsy DrivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drowsy DrivingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B43574E236507F200EFFDB9 /* Drowsy_DrivingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drowsy_DrivingTests.swift; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		6B435759236507F200EFFDB9 /* Drowsy_DrivingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drowsy_DrivingUITests.swift; sourceTree = "<group>"; };
 		6B43575B236507F200EFFDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJ Airhorn Sound Effect.mp3"; sourceTree = "<group>"; };
+		87E1CA3223659D3600FA5800 /* Splash Screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash Screen@2x.png"; path = "../../../../Downloads/CalHacks6.0 (2)/Splash Screen@2x.png"; sourceTree = "<group>"; };
+		87E1CA3323659D3600FA5800 /* Splash Screen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash Screen@3x.png"; path = "../../../../Downloads/CalHacks6.0 (2)/Splash Screen@3x.png"; sourceTree = "<group>"; };
+		87E1CA3423659D3600FA5800 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Splash Screen.png"; path = "../../../../Downloads/CalHacks6.0 (2)/Splash Screen.png"; sourceTree = "<group>"; };
+		87E1CA3823659EF000FA5800 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		87E1CA3A2365A2C200FA5800 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,9 @@
 		6B43572B236507F100EFFDB9 = {
 			isa = PBXGroup;
 			children = (
+				87E1CA3423659D3600FA5800 /* Splash Screen.png */,
+				87E1CA3223659D3600FA5800 /* Splash Screen@2x.png */,
+				87E1CA3323659D3600FA5800 /* Splash Screen@3x.png */,
 				6B435736236507F100EFFDB9 /* Drowsy Driving */,
 				6B43574D236507F200EFFDB9 /* Drowsy DrivingTests */,
 				6B435758236507F200EFFDB9 /* Drowsy DrivingUITests */,
@@ -105,8 +116,9 @@
 				6B435739236507F100EFFDB9 /* art.scnassets */,
 				6B43573B236507F100EFFDB9 /* ViewController.swift */,
 				6B43573D236507F100EFFDB9 /* Main.storyboard */,
+				87E1CA3823659EF000FA5800 /* Launch Screen.storyboard */,
 				6B435740236507F200EFFDB9 /* Assets.xcassets */,
-				6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */,
+				87E1CA3A2365A2C200FA5800 /* Images.xcassets */,
 				6B435745236507F200EFFDB9 /* Info.plist */,
 				6B4357672365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 */,
 			);
@@ -235,11 +247,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E1CA3B2365A2C200FA5800 /* Images.xcassets in Resources */,
 				6B4357682365830300EFFDB9 /* DJ Airhorn Sound Effect.mp3 in Resources */,
 				6B43573A236507F100EFFDB9 /* art.scnassets in Resources */,
-				6B435744236507F200EFFDB9 /* LaunchScreen.storyboard in Resources */,
+				87E1CA3C2365A30B00FA5800 /* Launch Screen.storyboard in Resources */,
+				87E1CA3523659D3700FA5800 /* Splash Screen@2x.png in Resources */,
+				87E1CA3623659D3700FA5800 /* Splash Screen@3x.png in Resources */,
 				6B435741236507F200EFFDB9 /* Assets.xcassets in Resources */,
 				6B43573F236507F100EFFDB9 /* Main.storyboard in Resources */,
+				87E1CA3723659D3700FA5800 /* Splash Screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +323,6 @@
 				6B43573E236507F100EFFDB9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6B435742236507F200EFFDB9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B435743236507F200EFFDB9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -439,13 +447,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8M2294NU49;
+				DEVELOPMENT_ASSET_PATHS = "../../../../Downloads/CalHacks6.0\\ (2)/Splash\\ Screen.png";
+				DEVELOPMENT_TEAM = 57UWYUQP22;
 				INFOPLIST_FILE = "Drowsy Driving/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-Driving";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keth.drowsydriving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,13 +466,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8M2294NU49;
+				DEVELOPMENT_ASSET_PATHS = "../../../../Downloads/CalHacks6.0\\ (2)/Splash\\ Screen.png";
+				DEVELOPMENT_TEAM = 57UWYUQP22;
 				INFOPLIST_FILE = "Drowsy Driving/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.keth.Drowsy-Driving";
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

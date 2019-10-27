@@ -16,6 +16,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var labelView: UIView!
     @IBOutlet weak var faceLabel: UILabel!
+    @IBOutlet weak var overlayView: UIView!
     var analysis = ""
     var timer = [String]()
     private var audioPlayer: AVAudioPlayer!
@@ -23,18 +24,18 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewDidLoad()
      
         // 1
-        labelView.layer.cornerRadius = 10
+        // labelView.layer.cornerRadius = 10
      
         sceneView.delegate = self
         sceneView.showsStatistics = true
-     
+    
         // 2
         guard ARFaceTrackingConfiguration.isSupported else {
             fatalError("Face tracking is not supported on this device")
+        
         }
         
-        
-        let sound = Bundle.main.path(forResource: "DJ Airhorn Sound Effect", ofType: "mp3")
+        let sound = Bundle.main.path(forResosurce: "DJ Airhorn Sound Effect", ofType: "mp3")
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
         }
